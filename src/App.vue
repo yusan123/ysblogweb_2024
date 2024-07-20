@@ -22,7 +22,7 @@
                     <el-menu-item index="/tag">标签管理</el-menu-item>
                   </el-menu-item-group>
                   <el-menu-item-group title="分组2">
-                    <el-menu-item index="1-3">选项3</el-menu-item>
+                    <el-menu-item index="/contact">通讯录</el-menu-item>
                   </el-menu-item-group>
                   <el-submenu index="1-4">
                     <template slot="title">选项4</template>
@@ -33,7 +33,7 @@
             </el-col>
           </el-row>
         </el-aside>
-        <el-main><router-view/></el-main>
+       <router-view/>
       </el-container>
     </el-container>
   </div>
